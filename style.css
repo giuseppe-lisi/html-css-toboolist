@@ -1,3 +1,5 @@
+/* GENERALE */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,17 +17,16 @@ body {
     font-family: sans-serif;
 }
 
-.user-buttons {
-    background-color: #FFFFFF;
-
-    padding: 10px 70px;
-    margin-bottom: 3px;
+h3 {
+    display: inline;
 }
 
-.tasks {
-    background-color: #FFFFFF;
-    padding: 30px 70px;
+ul li {
+    list-style-type: none;
+    margin: 10px 0px 18px;
 }
+
+/* HEADER */
 
 #header {
     background-color: #FFFFFF;
@@ -36,6 +37,20 @@ body {
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+/* SEZIONE PER AGGIUNTA TASK E SECTION */
+
+.user-buttons {
+    background-color: #FFFFFF;
+
+    padding: 10px 70px;
+    margin-bottom: 3px;
+}
+
+.tasks {
+    background-color: #FFFFFF;
+    padding: 30px 70px;
 }
 
 #new-task-button {
@@ -57,15 +72,6 @@ body {
     padding: 6px 9px;
     border: 1px solid #c7c7c7;
     border-radius: 5px;
-}
-
-h3 {
-    display: inline;
-}
-
-ul li {
-    list-style-type: none;
-    margin: 10px 0px 18px;
 }
 
 /* Icona del triangolo vicino alle sezioni */
