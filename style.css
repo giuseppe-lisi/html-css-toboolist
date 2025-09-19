@@ -63,6 +63,13 @@ h3 {
     display: inline;
 }
 
+ul li {
+    list-style-type: none;
+    margin: 10px 0px 18px;
+}
+
+/* Icona del triangolo vicino alle sezioni */
+
 .triangle-down {
     width: 0;
     height: 0;
@@ -75,13 +82,7 @@ h3 {
     border-top: 5px solid grey;
 }
 
-ul li {
-    list-style-type: none;
-    margin: 10px 0px 20px;
-}
-
-/* per la x cerchiata esiste già una entity html, 
-per il checkmark bisogna creare un checkmark cerchiato */
+/* Icone dei To-Do */
 .checkmark {
     display: inline-block;
     width: 16px;
@@ -95,20 +96,51 @@ per il checkmark bisogna creare un checkmark cerchiato */
 }
 
 .x-mark {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    
+    font-size: 13px;
     color: red;
+    border: 1px solid red;
+    border-radius: 50%;
 }
 
-/* category bubbles */
+/* Category bubbles */
 
 .bubble {
     color: whitesmoke;
 
     font-size: 10px;
     display: inline-block;
-    padding: 5px 10px;
-    border-radius: 9px;
+    padding: 6px 10px;
+    border-radius: 11px;
 }
 
+/* Classi per i vari colori delle bubble.
+Si poteva ovviamente scrivere css inline 
+ma questo lo rende più mantenibile*/
 .editorial {
     background-color: #45ABF4;
+}
+
+.goals {
+    background-color: #9D73E6;
+}
+
+.recruiting {
+    background-color: #68C0A9;
+}
+
+.mobile {
+    background-color: #F3A12E;
+}
+
+.website {
+    background-color: #D9659E;
+}
+
+.sales {
+    background-color: #B1CA27;
 }
